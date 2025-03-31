@@ -1,6 +1,7 @@
 use day_6::part_1::*;
+use day_6::*;
 
-fn main() {
+pub fn main() {
     tracing_subscriber::fmt::init();
     let input = include_str!("../../input.txt");
     //     let input = r"....#.....
