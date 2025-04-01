@@ -134,6 +134,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "day_7"
+version = "0.0.0"
+dependencies = [
+ "itertools",
+ "rayon",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
 name = "divan"
 version = "0.1.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -172,6 +182,15 @@ checksum = "33d852cb9b869c2a9b3df2f71a3074817f01e1844f839a144f5fcef059a4eb5d"
 dependencies = [
  "libc",
  "windows-sys",
+]
+
+[[package]]
+name = "itertools"
+version = "0.14.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2b192c782037fadd9cfa75548310488aabdbf3d2da73885b31bd0abd03351285"
+dependencies = [
+ "either",
 ]
 
 [[package]]
